@@ -1,0 +1,22 @@
+
+Layout:
+
+1. login / register page
+2. settings page
+3. home page with big on/off switch
+		cornell jumbotron in the background 
+ 		top bar has settings page / logout 
+
+ 4.  contact page for maintenance requests? 
+
+Functionality:
+
+1. Login will have secure functionality 
+	optional registration page (need to discuss how we are doing this -- update DB with their pwords?)
+
+2. the on/off switch will show the current state of the server 
+	& will send a GET Request to the server if the user changes it. 
+
+3. contact page??
+
+Website doesn't need GPS functionality? 

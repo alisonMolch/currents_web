@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Landing Page - Upson Hall</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- for toggle-->
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <img src = "img/cu_logo.png" height = "50" width = "50" style = "padding-top: 5px"></img>
+            <a class="navbar-brand topnav" href = "index.html">Upson Energy Control</a>
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+            </div>
+             <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                </ul>
+            </div>
+        </div>
+
+        <!-- /.container -->
+    </nav>
+    <!-- END NAV --> 
+
+    <!-- LOGIN -->
+
+    <div class = "login">
+
+    <div class="container">
+
+      <form class="form-signin"  action='login.php' method='post' accept-charset='UTF-8'>
+        <img src = "img/currents-logo.png" height = "120" width = "260" >
+        <input type='hidden' name='submitted' id='submitted' value='1'/>
+        <h4 class="form-signin-heading">Please sign in</h4>
+
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="username" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+          <!--<input type="submit" name="submit" value="sign in" id="button">-->
+        <button class="btn btn-lg btn btn-default btn-block" type="submit" value = "Submit">Sign in</button>
+      </form>
+      <h4>Not yet registered? Click <a href = "register.php"> here</a>.</h4>
+
+    </div> 
+    <!-- /container -->
+    </div>
+    <!-- END LOGIN -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
